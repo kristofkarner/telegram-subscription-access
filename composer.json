@@ -1,0 +1,16 @@
+{
+    "name": "kristofkarner/telegram-subscription-access",
+    "description": "Paid access to a private Telegram group: single-use invites, pairing a payment with a Telegram account, expiry with a grace period, and removal that still allows the member to return.",
+    "keywords": ["telegram", "telegram-bot", "bot-api", "subscription", "access-control", "membership", "paid-community"],
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": { "KK\\TelegramAccess\\": "src/" }
+    }
+}
